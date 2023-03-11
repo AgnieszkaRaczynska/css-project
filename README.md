@@ -1,11 +1,28 @@
 # css-project
 
-Responsive website based on css, html & js.
+Responsive website based on css, html & js. 
+
+# live
+
+http://techstore478.biz.pl/
 
 # screenshots
 
-![01](https://user-images.githubusercontent.com/34206142/223652736-c62c8960-07ae-4bdf-bcb1-05c7bbe57fdf.JPG)
+![05](https://user-images.githubusercontent.com/34206142/224507864-c84f7cea-1fd3-4e80-b3b2-6f61d46a3668.jpg)
 
-![02](https://user-images.githubusercontent.com/34206142/223652757-2b5be0a7-933c-4696-b795-87d018b3f33e.JPG)
+![04](https://user-images.githubusercontent.com/34206142/224507857-a7641a1a-b471-4873-aa62-914ad32b58d9.JPG)
+
+![03](https://user-images.githubusercontent.com/34206142/224507850-0194368e-9ab7-4a7e-82bd-42f9de8f2e8a.JPG)
+
+![01](https://user-images.githubusercontent.com/34206142/224507838-1e8c4ede-0d12-48bc-8883-8284ca8311d0.JPG)
+
+![02](https://user-images.githubusercontent.com/34206142/224507847-cf563af4-f7c9-41e6-83f3-af2f1a9b6da7.JPG)
 
 
+
+
+
+
+# Remarks
+
+Photos taken from pexels.com and refined in Adobe Photoshop.
