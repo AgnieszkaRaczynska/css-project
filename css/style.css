@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
+html{
+  scroll-behavior: smooth;
+}
+
+
 /* css variables */
 
 :root{
@@ -48,6 +53,29 @@ body {
 
   #display h2{
     font-size: 2rem;
+  }
+
+  footer .footer-cols{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 2rem;
+    padding: 2rem;
+    text-align: left;
+    font-size: 14px;
+  }
+
+  footer .footer-cols ul{
+    list-style: none;
+  }
+
+  footer .footer-cols ul li:first-child{
+    font-size: 1.1rem;
+    padding-bottom: 0.5rem;
+  }
+
+  footer .footer-bottom{
+    background: #333;
+    padding: 1rem;
   }
 
   .container{
@@ -104,11 +132,31 @@ body {
   .section-head{
     font-size: 2.5rem;
     margin: 0;
+    padding: 2rem 0;
   }
 
   /* .section h3{
     font-size: 2rem;
   } */
+
+  .section#watches{
+    /* background-color: #103063; */
+    background-image: url('/images/bcg_other_.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10rem 0;
+    
+  }
+
+  .desktops{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+    column-gap: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+    
+  }
 
   .btn{
     padding: 1rem;
@@ -124,6 +172,7 @@ body {
 
   .btn-secondary{
     background-color: var(--secondary-color);
+    border-radius: 15px;
   }
 
   .btn-secondary:hover{
@@ -148,12 +197,27 @@ body {
     color: var(--light-color)
   }
 
+  .bg-light{
+    background-color: var(--light-color);
+    color: #333;
+  }
+
+
+
   .mb{
     margin-bottom: 1rem;
   }
 
   .mt{
     margin-top: 1rem;
+  }
+
+  .mt-2{
+    margin-top: 2rem;
+  }
+
+  .text-center{
+    text-align: center;
   }
 
 
@@ -180,6 +244,7 @@ body {
       font-size: 1.5rem;
     }
 
+   
 
   
     nav {
@@ -237,4 +302,23 @@ body {
   
   .cf {
     zoom: 1;
+  }
+
+  @media screen and (max-width: 780px){
+
+    .desktops{
+      grid-template-columns: 1fr;
+    }
+
+    footer .footer-cols{
+      display: none;
+    }
+
+  }
+
+  @media screen and (max-height: 580px){
+    #display p.lead{
+      display: none;
+    }
+
   }
